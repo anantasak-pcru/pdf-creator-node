@@ -113,6 +113,13 @@
     });
   ```
 
+- Register Handlebars registerHelper 
+  ```javascript
+    pdf.registerHelper('inc', (v) => {
+      return parseInt(v) + 1
+    })
+  ```
+
 ## Reference
 
 Please refer to the following if you want to use conditions in your HTML template:

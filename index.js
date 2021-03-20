@@ -11,10 +11,6 @@
 var Handlebars = require("handlebars");
 var pdf = require("html-pdf");
 
-Handlebars.registerHelper("inc", (x) => {
-  return parseInt(x) + 1
-})
-
 var registerHelper = function (name, callback) {
   Handlebars.registerHelper(name, callback)
 }
