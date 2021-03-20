@@ -11,6 +11,7 @@
 <h1>User List</h1>
 <ul>
     {{#each users}}
+      <li>{{inc @index}}</li>
       <li>Name: {{this.name}}</li>
       <li>Age: {{this.age}}</li>
       <br>

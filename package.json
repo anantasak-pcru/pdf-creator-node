@@ -1,12 +1,12 @@
 {
   "name": "pdf-creator-node",
-  "version": "2.2.2",
+  "version": "1.0.0",
   "description": "node pdf creator",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/hajareshyam/pdf-creator-node",
+  "homepage": "https://github.com/anantasak-pcru/pdf-creator-node",
   "keywords": [
     "pdf",
     "pdf",
@@ -41,10 +41,11 @@
     "pdf in node js",
     "node pdf js",
     "node",
-    "Shyam Hajare"
+    "Shyam Hajare",
+    "Anantasak Nonkhunthod"
   ],
-  "author": "Shyam Hajare",
-  "license": "ISC",
+  "author": "Anantasak Nonkhunthod",
+  "license": "MIT",
   "dependencies": {
     "handlebars": "^4.7.6",
     "html-pdf": "^2.2.0"

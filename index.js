@@ -11,6 +11,14 @@
 var Handlebars = require("handlebars");
 var pdf = require("html-pdf");
 
+Handlebars.registerHelper("inc", (x) => {
+  return parseInt(x) + 1
+})
+
+var registerHelper = function (name, callback) {
+  Handlebars.registerHelper(name, callback)
+}
+
 var create = function (document, options) {
   return new Promise((resolve, reject) => {
     if (!document || !document.html || !document.data) {
@@ -48,4 +56,5 @@ var create = function (document, options) {
   });
 };
 
-module.exports.create = create;
+exports.create = create;
+exports.registerHelper = registerHelper;
