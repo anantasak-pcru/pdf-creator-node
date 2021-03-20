@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/anantasak-pcru/pdf-creator-node/issues"
   },
-  "homepage": "https://github.com/anantasak-pcru/pdf-creator-node#readme"
+  "homepage": "https://github.com/anantasak-pcru/pdf-creator-node#readme",
+  "dependencies": {
+    "handlebars": "^4.7.6",
+    "html-pdf": "^2.2.0"
+  }
 }
