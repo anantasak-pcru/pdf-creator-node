@@ -4,7 +4,8 @@
   "description": "node pdf creator",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "npm publish"
   },
   "homepage": "https://github.com/anantasak-pcru/pdf-creator-node",
   "keywords": [
@@ -49,5 +50,12 @@
   "dependencies": {
     "handlebars": "^4.7.6",
     "html-pdf": "^2.2.0"
+  },
+  "repository": {
+    "type": "git",
+  "url": "git+https://github.com/anantasak-pcru/pdf-creator-node.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@anantasak-pcru"
   }
 }
