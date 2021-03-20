@@ -1,5 +1,5 @@
-// var pdf = require("pdf-creator-node");
-var pdf = require("../index");
+var pdf = require("@anantasak-pcru/pdf-creator-node");
+// var pdf = require("../index");
 var fs = require("fs");
 var path = require("path");
 // Read HTML Template

@@ -52,5 +52,4 @@ var create = function (document, options) {
   });
 };
 
-exports.create = create;
-exports.registerHelper = registerHelper;
+module.exports = { create, registerHelper }
